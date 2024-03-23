@@ -1,0 +1,18 @@
+"cd_files": ["./cust//http/user-data", "./cust/http/meta-data"],
+  "cd_label": "cidata",
+  "boot_wait": "2s",
+  "boot_command": [
+    "<enter><wait2><enter><wait><f6><esc><wait>",
+    " autoinstall<wait2> ds=nocloud;",
+    "<wait><enter>"
+  ]
+
+
+
+boot_command = [
+    "e<down><down><down><end>",
+    " autoinstall ds=nocloud;",
+    "<F10>",
+  ]
+
+https://askubuntu.com/questions/1404491/create-ubuntu-22-04-template-with-packer-io-ignores-auto-install-kernel-paramete
